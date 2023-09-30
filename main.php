@@ -4,7 +4,7 @@
 
 ///https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
-$botToken = "5261916902:AAFhg0QN0s9weVpPzIZdnNihjQLRSwfXbrk"; // Enter ur bot token
+$botToken = "6684724032:AAFex7HlkVp2PhEC_93dlsjoPtXW8nQTvU0"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -21,7 +21,7 @@ $message_id = $update["message"]["message_id"];
 //////////=========[Start Command]=========//////////
 
 if ((strpos($message, "!start") === 0)||(strpos($message, "/start") === 0)){
-sendMessage($chatId, "<b>Hello there!!%0AType /help to know all my commands!!%0A%0ABot Made by LapanWasTaken @Cendawannn</b>");
+sendMessage($chatId, "<b>Hello there!!%0AType /help to know all my commands!!%0A%0ABot Made by LapanWasTaken @mexicoccsadmin</b>");
 }
 
 //////////=========[Help Command]=========//////////
